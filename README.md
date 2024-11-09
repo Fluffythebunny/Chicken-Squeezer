@@ -9,4 +9,4 @@ Chicken Squeezer is a simple web-based game where you can squeeze rubber chicken
 - Earn achievements for reaching various squeak milestones
 - Save your progress using the browser's local storage
 
-play it at 
+play it at https://chicken-squeezer.pages.dev/
