@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubber Chicken Squeezer 3000</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <div class="container">
+            <h2 style="color: white; text-align: center;">Rubber Chicken Squeezer 3000</h2>
+            <div class="chicken" onclick="squeezeChicken(event)"></div>
+            <div class="squeeze-meter">
+                <div class="meter-fill"></div>
+            </div>
+            <div class="squeak-counter">Squeaks: 0</div>
+            <button class="glass-button" onclick="resetCounter()">Reset Squeaks</button>
+        </div>
+        
+        <div class="upgrades-panel">
+            <h3 style="color: white;">Upgrades</h3>
+            <div class="upgrade-item" data-upgrade="goldenChicken" onclick="buyUpgrade('goldenChicken')">
+                Golden Chicken (5000 squeaks)
+            </div>
+            <div class="upgrade-item" data-upgrade="autoSqueezer" onclick="buyUpgrade('autoSqueezer')">
+                Auto Squeezer (50 squeaks)
+            </div>
+            <div class="upgrade-item" data-upgrade="multiSqueezer" onclick="buyUpgrade('multiSqueezer')">
+                Multi Squeezer (75 squeaks)
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
